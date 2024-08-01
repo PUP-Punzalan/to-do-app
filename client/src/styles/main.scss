@@ -1,0 +1,144 @@
+@import "./variables";
+@import "./modal";
+@import "./tasks";
+@import "./sidebar";
+@import "./button";
+@import "./task";
+@import "./icons";
+@import "./input";
+
+// Default styles
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $white-background-02;
+  color: $black-foreground-01;
+  font-family: $ff-lato;
+}
+
+input,
+button,
+Link {
+  border: none;
+  outline: none;
+  background: none;
+  text-decoration: none !important;
+}
+
+// Typography
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $ff-dm-sans;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 3.75rem;
+  letter-spacing: -1%;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+  letter-spacing: -1%;
+}
+
+h3 {
+  font-size: 2.125rem;
+  line-height: 2.375rem;
+}
+
+h4 {
+  font-size: 1.75rem;
+  line-height: 2rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}
+
+h6 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.p {
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.p-long {
+  line-height: 1.5rem;
+}
+
+.sm {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+
+.sm-long {
+  line-height: 1.25rem;
+}
+
+.xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.icon-16 {
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+}
+
+.icon-20 {
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+.p,
+.sm,
+.xs {
+  margin: 0;
+  padding: 0;
+}
+
+// Container
+.cont {
+  display: flex;
+}
+
+Link,
+button {
+  text-decoration: none !important;
+}

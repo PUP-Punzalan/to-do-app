@@ -1,0 +1,20 @@
+.non-relative {
+  position: static;
+}
+
+.modal--container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 100dvh;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+  background: red;
+}
+
+.contents {
+}

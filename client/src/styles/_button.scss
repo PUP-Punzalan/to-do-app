@@ -1,0 +1,28 @@
+.c-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 12px 20px;
+  width: 100%;
+  transition: filter 0.3s ease-in-out;
+  border-radius: 8px;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+}
+
+.c-btn--primary {
+  background: $purple-dark;
+  color: $white-background-01;
+}
+
+.c-btn--danger {
+  background: $orange-dark;
+  color: $white-background-01;
+}
+
+.c-btn--suceess {
+  background: #189638;
+  color: $white-background-01;
+}

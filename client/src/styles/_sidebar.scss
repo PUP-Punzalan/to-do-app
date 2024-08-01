@@ -1,0 +1,58 @@
+.sidebar--cont {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 320px;
+  height: 100dvh;
+  padding: 40px 16px 20px 16px;
+
+  background: $white-background-01;
+  border-right: 1px solid $black-10;
+
+  .side {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+.logo--cont {
+  padding-inline: 16px;
+
+  .logo {
+    height: 20px;
+    width: fit-content;
+  }
+}
+
+.search--cont {
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+  padding-inline: 20px;
+  padding-block: 12px;
+
+  color: $black-50;
+  background: $white-background-02;
+  border: 1px solid $black-10;
+  border-radius: 8px;
+}
+
+.actions--cont {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .title {
+    color: $black-50;
+    padding-inline: 16px;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
